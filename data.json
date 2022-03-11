@@ -1,5 +1,5 @@
 {
-    "cairo to hurghada" : [ { "from":"cairo","pickup":"tahrir",
+    "cairo_to_hurghada" : [ { "from":"cairo","pickup":"tahrir",
                             "to":"hurghada","dropoff":"hurghada",
                             "stime":"12:15am","etime":"7:15am",
                             "price":"190egp","bustype":"classic"},
@@ -253,7 +253,7 @@
                             "price":"245egp","bustype":"deluxe"}
                         ],
 
-    "alexandria to hurghada" : [{ "from":"alexandria","pickup":"moharam bek",
+    "alexandria_to_hurghada" : [{ "from":"alexandria","pickup":"moharam bek",
                                 "to":"hurghada","dropoff":"hurghada",
                                 "stime":"8:05am","etime":"4:05pm",
                                 "price":"290egp","bustype":"deluxe"},
@@ -268,7 +268,7 @@
                                 "price":"290egp","bustype":"deluxe"}
                                ],
 
-    "hurghada to alexandria" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_alexandria" : [{ "from":"hurghada","pickup":"hurghada",
                                 "to":"alexandria","dropoff":"moharam bek",
                                 "stime":"2:10pm","etime":"10:10pm",
                                 "price":"290egp","bustype":"deluxe"},
@@ -283,7 +283,7 @@
                                 "price":"290egp","bustype":"deluxe"}
                             ],
 
-    "hurghada to luxor" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_luxor" : [{ "from":"hurghada","pickup":"hurghada",
                            "to":"luxor","dropoff":"ramses",
                            "stime":"8:30am","etime":"12:30pm",
                            "price":"145egp","bustype":"deluxe"},
@@ -293,7 +293,7 @@
                            "price":"145egp","bustype":"deluxe"}
                         ],
 
-    "luxor to hurghada" : [{ "from":"luxor","pickup":"ramses",
+    "luxor_to_hurghada" : [{ "from":"luxor","pickup":"ramses",
                            "to":"hurghada","dropoff":"hurghada",
                            "stime":"8:05am","etime":"12:05pm",
                            "price":"145egp","bustype":"deluxe"},
@@ -307,7 +307,7 @@
                             "price":"145egp","bustype":"deluxe"}
                           ],
 
-    "suez to hurghada" : [{ "from":"suez","pickup":"porto elsokhna",
+    "suez_to_hurghada" : [{ "from":"suez","pickup":"porto elsokhna",
                           "to":"hurghada","dropoff":"hurghada",
                           "stime":"1:55am","etime":"5:55am",
                           "price":"170egp","bustype":"classic"},
@@ -326,7 +326,7 @@
                             "price":"170egp","bustype":"classic"}
                          ],
 
-    "cairo to suez" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_suez" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"suez","dropoff":"porto elsokhna",
                             "stime":"12:45am","etime":"2:45am",
                             "price":"170egp","bustype":"classic"},
@@ -396,7 +396,7 @@
                             "price":"140egp","bustype":"deluxe"}
                         ],
 
-    "suez to cairo" : [{ "from":"suez","pickup":"porto elsokhna",
+    "suez_to_cairo" : [{ "from":"suez","pickup":"porto elsokhna",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"2:20pm","etime":"4:20pm",
                             "price":"195egp","bustype":"deluxe"},
@@ -475,7 +475,7 @@
                             "price":"195gp","bustype":"deluxe"}
                         ],
 
-    "hurghada to qena" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_qena" : [{ "from":"hurghada","pickup":"hurghada",
                             "to":"qena","dropoff":"sidi abdelraheem",
                             "stime":"8:30am","etime":"12:30pm",
                             "price":"135egp","bustype":"deluxe"},
@@ -485,7 +485,7 @@
                             "price":"135egp","bustype":"deluxe"}
                         ],
 
-    "qena to hurghada" : [{ "from":"qena","pickup":"sidi abdelraheem",
+    "qena_to_hurghada" : [{ "from":"qena","pickup":"sidi abdelraheem",
                             "to":"hurghada","dropoff":"hurghada",
                             "stime":"9:35am","etime":"12:35pm",
                             "price":"135egp","bustype":"deluxe"},
@@ -495,7 +495,7 @@
                             "price":"135egp","bustype":"deluxe"}
                          ],
 
-    "cairo to qena" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_qena" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"qena","dropoff":"sidi abdelraheem",
                             "stime":"1:50am","etime":"9:50am",
                             "price":"255egp","bustype":"deluxe"},
@@ -532,7 +532,7 @@
                             "price":"170egp","bustype":"classic"}
                         ],
 
-    "qena to cairo" : [{ "from":"qena","pickup":"sidi abdelraheem",
+    "qena_to_cairo" : [{ "from":"qena","pickup":"sidi abdelraheem",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"12:06pm","etime":"8:06am",
                             "price":"415egp","bustype":"elite"},
@@ -573,7 +573,7 @@
                             "price":"415egp","bustype":"elite"}
                         ],
 
-    "cairo to assiut" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_assiut" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"assiut","dropoff":"elshader",
                             "stime":"12:47am","etime":"6:47am",
                             "price":"200egp","bustype":"deluxe"},
@@ -616,7 +616,7 @@
                             "price":"310egp","bustype":"elite"}
                         ],
 
-    "assiut to cairo" : [{ "from":"assiut","pickup":"elshader",
+    "assiut_to_cairo" : [{ "from":"assiut","pickup":"elshader",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"12:16am","etime":"6:16am",
                             "price":"160egp","bustype":"classic"},
@@ -673,19 +673,19 @@
                             "price":"200egp","bustype":"deluxe"}
                         ],
 
-    "hurghada to assiut" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_assiut" : [{ "from":"hurghada","pickup":"hurghada",
                             "to":"assiut","dropoff":"elshader",
                             "stime":"1:29pm","etime":"5:29pm",
                             "price":"170egp","bustype":"classic"}
                            ],
 
-    "assiut to hurghada" : [{ "from":"assiut","pickup":"elshader",
+    "assiut_to_hurghada" : [{ "from":"assiut","pickup":"elshader",
                             "to":"hurghada","dropoff":"hurghada",
                             "stime":"1:01am","etime":"5:01am",
                             "price":"170egp","bustype":"classic"}
                            ],
                             
-    "gharbia to hurghada" : [{ "from":"gharbia","pickup":"tanta",
+    "gharbia_to_hurghada" : [{ "from":"gharbia","pickup":"tanta",
                             "to":"hurghada","dropoff":"hurghada",
                             "stime":"1:01am","etime":"5:01am",
                             "price":"170egp","bustype":"classic"},
@@ -714,7 +714,7 @@
                             "price":"210egp","bustype":"deluxe"}
                             ],
 
-    "hurghada to gharbia" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_gharbia" : [{ "from":"hurghada","pickup":"hurghada",
                             "to":"gharbia","dropoff":"tanta",
                             "stime":"1:15pm","etime":"11:15pm",
                             "price":"220egp","bustype":"deluxe"},
@@ -735,7 +735,7 @@
                             "price":"210egp","bustype":"deluxe"}
                             ],
 
-    "alexandria to cairo" : [{ "from":"alexandria","pickup":"moharam bek",
+    "alexandria_to_cairo" : [{ "from":"alexandria","pickup":"moharam bek",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"4:30am","etime":"7:30am",
                             "price":"90egp","bustype":"classic"},
@@ -918,7 +918,7 @@
                                 "price":"90egp","bustype":"classic"}
                             ],
 
-    "cairo to luxor" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_luxor" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"luxor","dropoff":"ramses",
                             "stime":"1:50am","etime":"11:50am",
                             "price":"265egp","bustype":"deluxe"},
@@ -945,7 +945,7 @@
                             "price":"190egp","bustype":"classic"}
                         ],
                     
-    "luxor to cairo" : [{ "from":"luxor","pickup":"ramses",
+    "luxor_to_cairo" : [{ "from":"luxor","pickup":"ramses",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"1:00pm","etime":"11:00pm",
                             "price":"265egp","bustype":"deluxe"},
@@ -986,7 +986,7 @@
                             "price":"425egp","bustype":"elite"}
                         ],
 
-    "safaga to luxor" : [{ "from":"safaga","pickup":"safaga",
+    "safaga_to_luxor" : [{ "from":"safaga","pickup":"safaga",
                             "to":"luxor","dropoff":"ramses",
                             "stime":"9:20am","etime":"1:20pm",
                             "price":"105egp","bustype":"deluxe"},
@@ -996,7 +996,7 @@
                             "price":"105egp","bustype":"deluxe"}
                         ],
 
-    "luxor to safaga" : [{ "from":"luxor","pickup":"ramses",
+    "luxor_to_safaga" : [{ "from":"luxor","pickup":"ramses",
                             "to":"safaga","dropoff":"safaga",
                             "stime":"8:05am","etime":"11:05am",
                             "price":"105egp","bustype":"deluxe"},
@@ -1006,7 +1006,7 @@
                             "price":"105egp","bustype":"deluxe"}
                         ],
 
-    "hurghada to cairo" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_cairo" : [{ "from":"hurghada","pickup":"hurghada",
                                 "to":"cairo","dropoff":"tahrir",
                                 "stime":"1:01am","etime":"8:01am",
                                 "price":"190egp","bustype":"classic"},
@@ -1272,7 +1272,7 @@
                                 "price":"235egp","bustype":"deluxe"}
                             ],
 
-    "sharm elshiekh to cairo" : [{ "from":"sharm elshiekh","pickup":"royssat",
+    "sharm_elshiekh_to_cairo" : [{ "from":"sharm elshiekh","pickup":"royssat",
                                     "to":"cairo","dropoff":"tahrir",
                                     "stime":"12:30am","etime":"8:30am",
                                     "price":"195egp","bustype":"classic"},
@@ -1390,7 +1390,7 @@
                                     "price":"240egp","bustype":"deluxe"}
                                 ],
 
-    "cairo to sharm elshiekh" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_sharm_elshiekh" : [{ "from":"cairo","pickup":"tahrir",
                                     "to":"sharm elshiekh","dropoff":"royssat",
                                     "stime":"12:00am","etime":"8:00am",
                                     "price":"195egp","bustype":"classic"},
@@ -1480,7 +1480,7 @@
                                     "price":"240egp","bustype":"deluxe"}
                                 ],
 
-    "cairo to south sinai" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_south_sinai" : [{ "from":"cairo","pickup":"tahrir",
                                 "to":"south sinai","dropoff":"dahab",
                                 "stime":"12:20am","etime":"10:20am",
                                 "price":"275egp","bustype":"deluxe"},
@@ -1537,7 +1537,7 @@
                                 "price":"275egp","bustype":"deluxe"}
                             ],
 
-    "south sinai to cairo" : [{ "from":"south sinai","pickup":"dahab",
+    "south_sinai_to_cairo" : [{ "from":"south sinai","pickup":"dahab",
                                 "to":"cairo","dropoff":"tahrir",
                                 "stime":"12:30am","etime":"10:30am",
                                 "price":"440egp","bustype":"elite"},
@@ -1603,7 +1603,7 @@
                                 "price":"275egp","bustype":"deluxe"}
                             ],
 
-    "red sea to cairo" : [{ "from":"red sea","pickup":"marsa alam",
+    "red_sea_to_cairo" : [{ "from":"red sea","pickup":"marsa alam",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"2:30pm","etime":"12:30am",
                             "price":"280egp","bustype":"deluxe"},
@@ -1694,7 +1694,7 @@
                             "price":"245egp","bustype":"deluxe"}
                         ],
 
-    "cairo to nuweiba" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_nuweiba" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"nuweiba","dropoff":"nuweiba",
                             "stime":"12:20am","etime":"5:35am",
                             "price":"325egp","bustype":"deluxe"},
@@ -1723,7 +1723,7 @@
                             "price":"325egp","bustype":"deluxe"}
                         ],
     
-    "nuweiba to cairo" : [{ "from":"nuweiba","pickup":"taba",
+    "nuweiba_to_cairo" : [{ "from":"nuweiba","pickup":"taba",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"4:35pm","etime":"4:35am",
                             "price":"325egp","bustype":"deluxe"},
@@ -1749,7 +1749,7 @@
                             "price":"345egp","bustype":"deluxe"}
                         ],
 
-    "matrouh to cairo" : [{ "from":"matrouh","pickup":"marsa matrouh",
+    "matrouh_to_cairo" : [{ "from":"matrouh","pickup":"marsa matrouh",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"11:30pm","etime":"4:30am",
                             "price":"190egp","bustype":"deluxe"},
@@ -1778,7 +1778,7 @@
                 
                         ],
 
-    "cairo to elmenia" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_elmenia" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"elmenia","dropoff":"minya",
                             "stime":"1:15am","etime":"5:15am",
                             "price":"120egp","bustype":"deluxe"},
@@ -1797,7 +1797,7 @@
                             "price":"100egp","bustype":"classic"}
                         ],
 
-    "elmenia to cairo" : [{ "from":"elmenia","pickup":"minya",
+    "elmenia_to_cairo" : [{ "from":"elmenia","pickup":"minya",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"1:30am","etime":"5:30am",
                             "price":"120egp","bustype":"deluxe"},
@@ -1906,7 +1906,7 @@
                             "price":"130egp","bustype":"deluxe"}
                         ],
 
-    "cairo to port said" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_port_said" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"port said","dropoff":"port said",
                             "stime":"7:10am","etime":"9:40am",
                             "price":"85egp","bustype":"deluxe"},
@@ -1961,7 +1961,7 @@
                             "price":"85egp","bustype":"deluxe"}
                         ],
 
-    "port said to cairo" : [{ "from":"port said","pickup":"port said",
+    "port_said_to_cairo" : [{ "from":"port said","pickup":"port said",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"6:05am","etime":"8:35am",
                             "price":"85egp","bustype":"deluxe"},
@@ -2058,7 +2058,7 @@
                             "price":"85egp","bustype":"deluxe"}
                            ],
 
-    "alexandria to sharm elshiekh" : [{ "from":"alexandria","pickup":"moharam bek",
+    "alexandria_to_sharm_elshiekh" : [{ "from":"alexandria","pickup":"moharam bek",
                                         "to":"sharm elshiekh","dropoff":"royssat",
                                         "stime":"1:00am","etime":"10:00am",
                                         "price":"290egp","bustype":"deluxe"},
@@ -2077,7 +2077,7 @@
                                         "price":"290egp","bustype":"deluxe"}
                                     ],
 
-    "sharm elshiekh to alexandria" : [{ "from":"sharm elshiekh","pickup":"royssat",
+    "sharm_elshiekh_to_alexandria" : [{ "from":"sharm elshiekh","pickup":"royssat",
                                         "to":"alexandria","dropoff":"moharam bek",
                                         "stime":"2:30pm","etime":"11:30pm",
                                         "price":"290egp","bustype":"deluxe"},
@@ -2087,13 +2087,13 @@
                                         "price":"290egp","bustype":"deluxe"}
                                     ],
 
-    "sharm elshiekh to south sinai" : [{ "from":"sharm elshiekh","pickup":"royssat",
+    "sharm_elshiekh_to_south_sinai" : [{ "from":"sharm elshiekh","pickup":"royssat",
                                         "to":"south sinai","dropoff":"dahab",
                                         "stime":"11:00am","etime":"12:05pm",
                                         "price":"85egp","bustype":"deluxe"}
                                     ],
 
-    "south sinai to sharm elshiekh" : [{ "from":"south sinai","pickup":"dahab",
+    "south_sinai_to_sharm_elshiekh" : [{ "from":"south sinai","pickup":"dahab",
                                         "to":"sharm elshiekh","dropoff":"royssat",
                                         "stime":"12:00pm","etime":"1:00am",
                                         "price":"90egp","bustype":"deluxe"},
@@ -2103,7 +2103,7 @@
                                         "price":"90egp","bustype":"deluxe"}
                                     ],
 
-    "gharbia to sharm elshiekh" : [{ "from":"gharbia","pickup":"tanta",
+    "gharbia_to_sharm_elshiekh" : [{ "from":"gharbia","pickup":"tanta",
                                         "to":"sharm elshiekh","dropoff":"royssat",
                                         "stime":"2:05am","etime":"10:05am",
                                         "price":"220egp","bustype":"deluxe"},
@@ -2114,7 +2114,7 @@
                                         "price":"220egp","bustype":"deluxe"}
                                     ],
 
-    "sharm elshiekh to gharbia" : [{ "from":"sharm elshiekh","pickup":"royssat",
+    "sharm_elshiekh_to_gharbia" : [{ "from":"sharm elshiekh","pickup":"royssat",
                                         "to":"gharbia","dropoff":"tanta",
                                         "stime":"2:00pm","etime":"10:00pm",
                                         "price":"220egp","bustype":"deluxe"},
@@ -2125,7 +2125,7 @@
                                         "price":"220egp","bustype":"deluxe"}
                                     ],
 
-    "cairo to alexandria" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_alexandria" : [{ "from":"cairo","pickup":"tahrir",
                                 "to":"alexandria","dropoff":"moharam bek",
                                 "stime":"1:35am","etime":"4:35am",
                                 "price":"90egp","bustype":"classic"},
@@ -2227,7 +2227,7 @@
                                 "price":"110egp","bustype":"deluxe"}
                             ],
 
-    "alexandria to south sinai" : [{ "from":"alexandria","pickup":"moharam bek",
+    "alexandria_to_south_sinai" : [{ "from":"alexandria","pickup":"moharam bek",
                                         "to":"south sinai","dropoff":"dahab",
                                         "stime":"11:00pm","etime":"7:00am",
                                         "price":"325egp","bustype":"deluxe"},
@@ -2237,13 +2237,13 @@
                                         "price":"325egp","bustype":"deluxe"}
                                     ],
 
-    "south sinai to alexandria" : [{ "from":"south sinai","pickup":"dahab",
+    "south_sinai_to_alexandria" : [{ "from":"south sinai","pickup":"dahab",
                                         "to":"alexandria","dropoff":"moharam bek",
                                         "stime":"7:00pm","etime":"7:00am",
                                         "price":"325egp","bustype":"deluxe"}
                                   ],
 
-    "alexandria to suez" : [{ "from":"alexandria","pickup":"moharam bek",
+    "alexandria_to_suez" : [{ "from":"alexandria","pickup":"moharam bek",
                             "to":"suez","dropoff":"porto elsokhna",
                             "stime":"8:05am","etime":"12:05pm",
                             "price":"270egp","bustype":"deluxe"},
@@ -2262,7 +2262,7 @@
                             "price":"270egp","bustype":"deluxe"}
                         ],
 
-    "suez to alexandria" : [{ "from":"suez","pickup":"porto elsokhna",
+    "suez_to_alexandria" : [{ "from":"suez","pickup":"porto elsokhna",
                             "to":"alexandria","dropoff":"moharam bek",
                             "stime":"12:55am","etime":"9:30pm",
                             "price":"220egp","bustype":"deluxe"},
@@ -2272,7 +2272,7 @@
                             "price":"220egp","bustype":"deluxe"}
                         ],
 
-    "cairo to matrouh" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_matrouh" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"matrouh","dropoff":"marsa matrouh",
                             "stime":"8:19am","etime":"1:19pm",
                             "price":"190egp","bustype":"deluxe"},
@@ -2301,7 +2301,7 @@
                             "price":"190egp","bustype":"deluxe"}
                         ],
 
-    "cairo to safaga" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_safaga" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"safaga","dropoff":"safaga",
                             "stime":"12:01am","etime":"7:01am",
                             "price":"250egp","bustype":"deluxe"},
@@ -2333,7 +2333,7 @@
                             "price":"250egp","bustype":"deluxe"}
                         ],
 
-    "safaga to cairo" : [{ "from":"safaga","pickup":"safaga",
+    "safaga_to_cairo" : [{ "from":"safaga","pickup":"safaga",
                             "to":"cairo","dropoff":"tahrir",
                             "stime":"6:00pm","etime":"1:00am",
                             "price":"225egp","bustype":"deluxe"},
@@ -2352,7 +2352,7 @@
                             "price":"225egp","bustype":"deluxe"}
                         ],
 
-    "red sea to safaga" : [{ "from":"red sea","pickup":"marsa alam",
+    "red_sea_to_safaga" : [{ "from":"red sea","pickup":"marsa alam",
                             "to":"safaga","dropoff":"safaga",
                             "stime":"2:30pm","etime":"5:30pm",
                             "price":"155egp","bustype":"deluxe"},
@@ -2371,7 +2371,7 @@
                             "price":"145egp","bustype":"deluxe"}
                         ],
 
-    "safaga to red sea" : [{ "from":"safaga","pickup":"safaga",
+    "safaga_to_red_sea" : [{ "from":"safaga","pickup":"safaga",
                             "to":"red sea","dropoff":"marsa alam",
                             "stime":"6:46am","etime":"9:46am",
                             "price":"145egp","bustype":"deluxe"},
@@ -2390,7 +2390,7 @@
                             "price":"115egp","bustype":"deluxe"}
                         ],
 
-    "safaga to qena" : [{ "from":"safaga","pickup":"safaga",
+    "safaga_to_qena" : [{ "from":"safaga","pickup":"safaga",
                             "to":"qena","dropoff":"sidi abdelraheem",
                             "stime":"9:20am","etime":"11:20am",
                             "price":"95egp","bustype":"classic"},
@@ -2400,7 +2400,7 @@
                             "price":"95egp","bustype":"classic"}
                         ],
 
-    "qena to safaga" : [{ "from":"qena","pickup":"sidi abdelraheem",
+    "qena_to_safaga" : [{ "from":"qena","pickup":"sidi abdelraheem",
                             "to":"safaga","dropoff":"safaga",
                             "stime":"9:35am","etime":"11:35pm",
                             "price":"95egp","bustype":"deluxe"},
@@ -2410,19 +2410,19 @@
                             "price":"95egp","bustype":"deluxe"}
                         ],
 
-    "safaga to assiut" : [{ "from":"safaga","pickup":"safaga",
+    "safaga_to_assiut" : [{ "from":"safaga","pickup":"safaga",
                             "to":"assiut","dropoff":"elshader",
                             "stime":"2:34pm","etime":"4:34am",
                             "price":"150egp","bustype":"classic"}
                          ],
 
-    "assiut to safaga" : [{ "from":"assiut","pickup":"elshader",
+    "assiut_to_safaga" : [{ "from":"assiut","pickup":"elshader",
                             "to":"safaga","dropoff":"safaga",
                             "stime":"1:00am","etime":"5:00pm",
                             "price":"150egp","bustype":"classic"}
                         ],
 
-    "south sinai to gharbia" : [{ "from":"south sinai","pickup":"dahab",
+    "south_sinai_to_gharbia" : [{ "from":"south sinai","pickup":"dahab",
                             "to":"gharbia","dropoff":"tanta",
                             "stime":"12:00pm","etime":"12:00am",
                             "price":"240egp","bustype":"deluxe"},
@@ -2433,7 +2433,7 @@
                             "price":"240egp","bustype":"deluxe"}
                                ],
     
-    "cairo to red sea" : [{ "from":"cairo","pickup":"tahrir",
+    "cairo_to_red_sea" : [{ "from":"cairo","pickup":"tahrir",
                             "to":"red sea","dropoff":"marsa alam",
                             "stime":"12:01am","etime":"10:01am",
                             "price":"280egp","bustype":"deluxe"},
@@ -2534,7 +2534,7 @@
                             "price":"260egp","bustype":"deluxe"}
                         ],
 
-    "hurghada to suez" : [{ "from":"hurghada","pickup":"hurghada",
+    "hurghada_to_suez" : [{ "from":"hurghada","pickup":"hurghada",
                             "to":"suez","dropoff":"porto elsokhna",
                             "stime":"10:30am","etime":"1:50pm",
                             "price":"220egp","bustype":"deluxe"},
@@ -2557,7 +2557,7 @@
                             "price":"235egp","bustype":"deluxe"}
                         ],
 
-    "gharbia to suez" : [{ "from":"gharbia","pickup":"tanta",
+    "gharbia_to_suez" : [{ "from":"gharbia","pickup":"tanta",
                             "to":"suez","dropoff":"porto elsokhna",
                             "stime":"1:35am","etime":"4:35am",
                             "price":"170egp","bustype":"deluxe"},
@@ -2567,7 +2567,7 @@
                             "price":"170egp","bustype":"deluxe"}
                         ],
 
-    "south sinai to nuweiba" : [{ "from":"south sinai","pickup":"dahab",
+    "south_sinai_to_nuweiba" : [{ "from":"south sinai","pickup":"dahab",
                             "to":"nuweiba","dropoff":"nuweiba",
                             "stime":"11:30am","etime":"2:30pm",
                             "price":"100egp","bustype":"deluxe"}
