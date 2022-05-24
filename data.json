@@ -1,5 +1,5 @@
 {
-    "cairo to hurghada" : [ { "from":"cairo","pickup":"tahrir",
+    "cairo_to_hurghada" : [ { "from":"cairo","pickup":"tahrir",
                             "to":"hurghada","dropoff":"hurghada",
                             "stime":"12:15am","etime":"7:15am",
                             "price":190,"bustype":"classic"},
