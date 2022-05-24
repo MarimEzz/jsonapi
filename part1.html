@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="part1.css">
+        <title>Superjet Services</title>
+        <script src="https://kit.fontawesome.com/5826bdd02e.js" crossorigin="anonymous"></script> <!--Fontawsome CDN-->
+        
+    </head>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+     <body>
+        <div class="fixedbg">
+            <div class="myprogress">
+                <div class="mybar">
+
+                </div>
+            </div>
+            <div class="bartitle">
+                <div class="barone"><p>1</p></div>
+                <div class="bartwo"><p>2</p></div>
+                <div class="barthree"><p>3</p></div>
+                <div class="barfour"><p>4</p></div>
+            </div>
+        </div>
+         <div class="headbody">
+
+
+             <div class="selectfrom">
+
+                <img src="place1.png" />
+                <p class="fromloc"> From </p>
+                <p id="passfromlocation"></p>
+          </div>
+
+
+
+             <div class="selectto">
+
+                <img src="place.png" />
+
+                <p class="toloc"> To </p>
+                <p id="passtolocation"></p>
+           </div>
+
+
+
+            <div class="selectdate">
+
+                <img src="calendar.png" />
+                <p class="pdateone"> Departure Date</p> 
+                <p id="passdateone" ></p>
+
+            </div>
+
+
+            <div class="selectreturn">
+                <p id="passdatetwo"></p>
+            <div id="hidetitle">
+                <img src="calendar1.png" />
+                <p id="titlereturn">Return Date</p>
+            </div>
+                <input type="button" value="Return Date?" id="returndate" min="2022-03-14" onclick="changedate()">
+           </div>
+
+
+
+             <div class="editebut">
+
+                <input type="button" id="pushedite" onclick="editebutton()" value="EDIT SEARCH" >
+
+            </div>
+
+
+        </div>
+     <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+         <div class="filtersection">
+
+             <div class="fpar">
+                      
+                <img src="edit.png" width="22px"/>
+                <p> Filter </p>
+             </div>
+
+
+             <div class="radio1">
+
+                <p class="labell"> SuperJet </p>
+
+
+                <div class="radio classic">
+                                                
+                    <button id="allbtnfilter">All</button>   
+                    <br>  
+
+                    <button id="classicbtnfilter">Classic</button>
+                    
+                    <span class="tooltip">
+                        <img class="infoicon" src="info.png" width="15px"/>
+
+                        <div class="tooltiptext classicborder">This service provides an air-conditioned car that is equipped with a video player, and bathroom. Go Bus also offers a free snack on this service. Our calssic bus have a touch screen for each seat with tons of movies, games and music. You can also charge your mobile phone in your seat.
+                            <img class="buss" src="./bus/classic bus.jpg" width="260px" ;
+                            />
+
+                        </div>
+                    </span>                  
+                    <br>
+             </div>
+
+
+                
+                 <div class=" radio Delux_plus ">
+
+                    <button id="deluxebtnfilter">Deluxe</button>
+
+                    <span class="tooltip">
+                        <img class="infoicon" src="info.png" width="15px"/>
+
+                        <div class="tooltiptext deluxborder">This is a 31-passenger bus, offering double and single chairs to maintain the privacy of our customers. also provides cars that are air-conditioned, equipped with a video player, bathroom, and an attendant is present on the bus to offer drinks and a meal. The trip on this bus is direct to the drop station, making the journey time minimalistic.
+                            <img class="buss" src="./bus/deluxe bus.jpg" width="260px" ;/>
+
+                        </div>
+                    </span>                    
+                    <br>
+             </div>
+                 
+
+                 <div class=" radio  Elite_plus" >
+
+                    <button id="elitebtnfilter">Elite</button>   
+
+                    <span class="tooltip">
+                        <img class="infoicon" src="info.png" width="15px"/>
+
+                        <div class="tooltiptext eliteborder">This class offers buses with luxurious wide seats and salons. This bus is oriented to have multiple four seats facing each other with a table in the middle. In addition to a salon at the end of the bus that holds 6 luxurious wide seats with a table in the middle. The journey is direct, with an attendant offering drinks and a meal.
+                            <img class="buss" src="./bus/elite bus.jpg" width="260px" ;/>
+
+                        </div>
+                    </span> 
+                </div>
+                
+
+            </div>
+
+         <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <!-- <div class="radio2">
+
+              <p class="labell"> Time </p>
+
+                 <div class=" radio am ">
+                    <input type="radio" name="Time" value="AM" id="am">
+                    <label for="am"> AM </label>
+                </div>
+
+
+                <div class=" radio pm ">
+                    <input type="radio" name="Time" value="PM" id="pm">
+                    <label for="pm"> PM </label>
+                </div>
+
+            
+
+            </div>-->
+
+                            
+         </div>
+
+     <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <p class="gotic">GO TICKET </p>
+
+     <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        
+         <div class="ticketscontainer" id="myrow">
+                    
+                        <div class="ticketbody">
+                            <h3 style="color: rgb(196, 0, 0); margin: auto;">" Tickets are not available at the moment, try again later or email us "
+                            </h3>
+                        </div>
+        </div>
+        
+     <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+         <div class="postinfo">
+
+            <div class="posttitle">
+            <img src="ticket.png" />
+            <h6> SELECT A TRIP </h6>
+            </div>
+
+            <div class="user data1">
+
+                <span class="from"> From </span>
+                <p id="passfrolocation" ></p>
+
+            </div>
+
+
+            <div class="user data2">
+
+                <span class="to"> To </span>
+                <p id="passtlocation"></p>
+
+            </div>
+
+            <div class="user data3">
+
+                <span class="date"> Date </span>
+                <p id="passdteone"></p>
+
+            </div>
+
+            <div class="user data4">
+
+                <span class="return"> Return </span>
+                <p id="passdtetwo"></p>
+         </div>
+         <hr width="200">
+
+                <h6 class="headtotal"> TOTAL <p id="passtotal"></p></h6>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="part1.js"></script>
+    </body>
+
+</html>    

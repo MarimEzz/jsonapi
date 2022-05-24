@@ -1,0 +1,802 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #ffff;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+::selection
+{
+    color: white;
+    background-color: #3DC3AC;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.headbody {
+    background-color: #ffff;
+    height: 120px;
+    width: 1300px;
+    box-shadow: 0 3px 10px #999999;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+} 
+.fixedbg
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 160px;
+    z-index: 1;
+    position: fixed;
+    padding: 15px 45px;
+
+}
+.myprogress
+{
+    width: 100%;
+    background-color: #e4e4e4;
+}
+.mybar
+{
+    width: 0%;
+    height: 8px;
+    background-color: #3DC3AC;
+}
+.bartitle
+{
+    display: flex;    
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+.bartitle p
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+.barone
+{
+    height: 30px;
+    width: 30px;
+    background-color: #3DC3AC;
+    border-radius: 50%;
+    margin-right: 31%;
+
+}
+.bartwo
+{
+    height: 30px;
+    width: 30px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    margin-right: 31%;
+}
+.barthree
+{
+    height: 30px;
+    width: 30px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    margin-right: 31%;
+}
+.barfour
+{
+    height: 30px;
+    width: 30px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    margin-left: 1%;
+}
+.selectfrom {
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+.selectfrom img{
+    width: 30px;
+}
+
+
+.selectfrom p {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 40px;
+   padding-top: 15px;
+  
+}
+
+.selectfrom .fromloc {
+    margin-top: -55px;
+}
+.selectfrom #passfromlocation
+{
+    border: none;
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    padding-top: 15px;
+    outline: none;
+
+
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.selectto {
+    padding: 5px 5px;
+    margin-top: 15px;
+    position: relative;
+    left: -60px;
+
+}
+.selectto img{
+    width: 30px;
+
+}
+
+.selectto p {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 40px;
+   padding-top: 15px;
+   letter-spacing: 1px;
+  
+}
+
+.selectto .toloc {
+    margin-top: -55px;
+}
+.selectto #passtolocation
+{
+    border: none;
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    padding-top: 15px;
+    outline: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.selectdate {
+    margin-top: 20px;
+    position: relative;
+    left: -50px;
+}
+.selectdate img{
+    width: 30px;
+    position: relative;
+    left: -50px;
+}
+
+.pdateone {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: -35px;
+    left: -10px;
+}
+
+#passdateone {
+   
+    color: #707070c9;
+    font-size: 23px;
+    position: relative;
+    top: -20px;
+    left: -30px;
+    border: none;
+    outline: none;
+   
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.selectreturn
+{
+    margin-top: 20px;
+    position: relative;
+    left: -35px;
+}
+.selectreturn img{
+    width: 30px;
+    position: relative;
+    left: -70px;
+}
+#titlereturn
+{
+    color: #707070c9;
+    font-size: 26px;
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+#returndate {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: dashed;
+    background-color: white;
+    border: none;
+    position: relative;
+    top: -15px;
+    left: -65px;
+    outline: none;
+}
+#hidetitle
+{
+    visibility:hidden;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.editebut {
+    margin-top: 30px;
+}
+#pushedite {
+    border: none;
+    color: #fff;
+    background-color: #FBBB0D;
+    padding: 10px 20px ;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 1px;
+    width: 210px;
+    position: relative;
+    left: -70px;
+}
+
+#pushedite:hover
+{
+    background-color: #faab00;
+    box-shadow: 0 3px 10px #999999;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.filtersection {
+    background-color: #ffff;
+    height: 400px;
+    width: 210px;
+    position: relative;
+    top: 180px;
+    border-right:1px solid #e4e4e4;
+    
+} 
+
+.fpar {
+    padding: 5px 30px;
+    display: flex;
+}
+
+
+
+.fpar p {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 15px;
+  
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#allbtnfilter
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #999;
+    width: 80px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #fff;
+
+}
+#allbtnfilter:focus
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #999;
+    width: 80px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #999;
+
+}
+#classicbtnfilter
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #999999;
+    width: 80px;
+    cursor: pointer;
+    background-color: #fff;
+}
+#classicbtnfilter:focus
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #9AD3BC;
+    width: 80px;
+    cursor: pointer;
+    color:#fff;
+    background-color: #9AD3BC;
+}
+#deluxebtnfilter
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #999;
+    width: 80px;
+    cursor: pointer;
+    background-color: #fff;
+}
+#deluxebtnfilter:focus
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #F5B461;
+    width: 80px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #F5B461;
+}
+#elitebtnfilter
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #999;
+    width: 80px;
+    cursor: pointer;
+    background-color: #fff;
+}
+#elitebtnfilter:focus
+{
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #FBF46D;
+    width: 80px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FBF46D;
+}
+.labell {
+    margin: 10px 10px;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.radio1 .radio.classic {
+    padding: 3px 35px;
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+   
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+.tooltip .classicborder{
+    display: none;
+    width: 290px;
+    background-color: #F2F6FA;
+    border-right: 12px solid #9AD3BC;
+    box-shadow: 0 3px 4px #999999;
+    outline:1px solid #e4e4e4;
+    color: #4e4e4e;
+    padding: 10px ;
+    z-index: 1;
+    position: absolute;
+    top: -100px;
+    left: 37px;
+    font-size: 16px;
+
+}
+.tooltip .deluxborder{
+    display: none;
+    width: 290px;
+    background-color: #F2F6FA;
+    border-right: 12px solid #F5B461;
+    box-shadow: 0 3px 4px #999999;
+    outline:1px solid #e4e4e4;
+    color: #4e4e4e;
+    padding: 10px ;
+    z-index: 1;
+    position: absolute;
+    top: -100px;
+    left: 37px;
+    font-size: 16px;
+
+}
+.tooltip .eliteborder{
+    display: none;
+    width: 290px;
+    background-color: #F2F6FA;
+    border-right: 12px solid #FBF46D;
+    box-shadow: 0 3px 4px #999999;
+    outline:1px solid #e4e4e4;
+    color: #4e4e4e;
+    padding: 10px ;
+    z-index: 1;
+    position: absolute;
+    top: -130px;
+    left: 37px;
+    font-size: 16px;
+
+}
+.buss
+{
+    margin-top: 10px;
+}
+.tooltip .tooltiptext::after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -35px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #F2F6FA transparent transparent;
+  }
+
+
+.tooltip:hover .tooltiptext
+{
+display: block;
+}
+
+.radio1 .radio.Delux_plus {
+    padding: 3px 35px;
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    
+}
+
+.radio1 .radio.Elite_plus {
+    padding: 3px 35px;
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.radio2 .radio.am {
+    padding: 3px 35px;
+    
+
+}
+.radio2 .radio.am  label {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.radio2 .radio.pm {
+    padding: 3px 35px;
+}
+.radio2 .radio.pm  label {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.gotic {
+    color: #707070;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 250px;
+    top: 170px;
+
+}
+.ticketscontainer
+{
+    height: 115px;
+    width: 790px;
+    position: absolute;
+    left: 220px;
+    top: 225px;
+}
+.ticketbody {
+    background-color: rgb(255, 255, 255);
+    height: 115px;
+    width: 790px;
+    position: relative;
+    
+    display: flex;
+    padding-left: 30px;
+   
+    
+} 
+
+
+.fromticket {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin: 7px 0px;
+}
+
+.ticketbody img {
+    width: 40px;
+    height: 40px;
+    margin: 30px 30px;
+    
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.toticket {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin: 7px 9px;
+}
+  
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.dateticket {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin: 7px 11px;
+}
+ 
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.priceofticket {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin: 9px 30px;   
+   
+}
+
+.selectbutton {
+    
+    color: #fff;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #FBBB0D;
+    border: none;
+    height: 40px;
+    width: 130px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 15px;
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.postinfo {
+    background-color: #ffff;
+    height: 400px;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 3px 10px #999999;
+    position: absolute;
+    top: 180px;
+    right: 25px; 
+} 
+.postinfo p
+{
+    width: 55%;
+    outline: none;
+    color: #707070c9;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+}
+.posttitle
+{
+    justify-content: center;
+    text-align: center;
+}
+.posttitle img {
+   width: 60px;
+   
+
+}
+
+.postinfo h6 {
+    color: #3DC3AC;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.user.data1 {
+    margin-top: 20px;
+
+}
+.user.data1 .from {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+}
+
+.user.data1 .cairo {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.user.data2 {
+    margin-top: 10px;
+}
+.user.data2 .to {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+}
+
+.user.data2 .alexandria {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 65px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.user.data3 {
+    margin-top: 10px;
+}
+.user.data3 .date {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+}
+
+.user.data3 .nov4 {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.user.data4 {
+    margin-top: 10px;
+}
+.user.data4 .return {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+}
+
+.user.data4 .nov6 {
+    color: #707070;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.postinfo hr {
+    color: #707070;
+   margin: auto;
+   position: relative;
+   top: 10px;
+}
+
+.postinfo .headtotal {
+    color: #707070c9;
+    font-style: 'regular';
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.postinfo, .filtersection, .headbody
+{
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+
